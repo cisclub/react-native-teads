@@ -36,10 +36,18 @@
 
 
 ## Usage
+
+Create Module for  Ad view. Just create a Java script file and paste following:
+```
+import { requireNativeComponent } from "react-native";
+
+module.exports = requireNativeComponent("RNTTeadsInReadAdView");
+```
+
+And use this where you want to use the ad view
 ```javascript
 import RNTeads from 'react-native-teads';
 
-// TODO: What to do with the module?
 <TeadsAdView
     PID={84242}
     style={{ flex: 0.5 }}
