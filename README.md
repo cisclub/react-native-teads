@@ -40,6 +40,12 @@
 import RNTeads from 'react-native-teads';
 
 // TODO: What to do with the module?
-RNTeads;
+<TeadsAdView
+    PID={84242}
+    style={{ flex: 0.5 }}
+    onAdClose={dic => console.log("Ad Closed:\n", dic.nativeEvent)}
+    onDidReceiveAd={dic =>
+        console.log("Did Receive Ad:\n", dic.nativeEvent)}
+/>
 ```
   
