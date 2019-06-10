@@ -6,10 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cisclub/react-native-teads"
+  },
   "keywords": [
-    "react-native"
+    "react-native",
+    "teads"
   ],
-  "author": "",
+  "author": "cisclub",
   "license": "",
   "peerDependencies": {
     "react-native": "^0.41.2"
