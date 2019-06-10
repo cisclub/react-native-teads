@@ -48,7 +48,7 @@ module.exports = requireNativeComponent("RNTTeadsInReadAdView");
 
 And use this where you want to use the ad view
 ```javascript
-import RNTeads from './src/TeadsInReadAdView';
+import TeadsAdView from './src/TeadsInReadAdView';
 
 <TeadsAdView
     PID={84242}
