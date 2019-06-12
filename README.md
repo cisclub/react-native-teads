@@ -9,6 +9,8 @@
 
 `$ react-native link react-native-teads`
 
+And then link the `TeadsSDK.framework` to your project by drag and drop and make sure `TeadsSDK.framework` appears in application's target > General > Linked Framework and Libraries
+
 ### Manual installation
 
 
