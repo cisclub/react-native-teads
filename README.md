@@ -59,9 +59,9 @@ import TeadsAdView from './src/TeadsInReadAdView';
     style={{ flex: 0.5 }}
     onAdClose={dic => console.log("Ad Closed:\n", dic.nativeEvent)}
     onDidReceiveAd={dic =>
-        console.log("Did Receive Ad:\n", dic.nativeEvent)} // dic = {adRatio : 1.234455}
-    onAdError={dic => console.log("Ad error", dic.nativeEvent)} // dic = {errorMessage : "error message"}
-    onAdDidFail={dic => console.log("Ad fail", dic.nativeEvent)} // dic = {errorCode : 1, errorMessage : "error message"}
+        console.log("Did Receive Ad:\n", dic.nativeEvent)} // dic.nativeEvent = {adRatio : 1.234455}
+    onAdError={dic => console.log("Ad error", dic.nativeEvent)} // dic.nativeEvent = {errorMessage : "error message"}
+    onAdDidFail={dic => console.log("Ad fail", dic.nativeEvent)} // dic.nativeEvent = {errorCode : 1, errorMessage : "error message"}
 />
 ```
   
