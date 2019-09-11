@@ -12,7 +12,7 @@ RCT_EXPORT_VIEW_PROPERTY(onAdClose, RCTBubblingEventBlock);
 RCT_EXPORT_VIEW_PROPERTY(onDidReceiveAd, RCTBubblingEventBlock);
 RCT_EXPORT_VIEW_PROPERTY(onAdError, RCTBubblingEventBlock);
 RCT_EXPORT_VIEW_PROPERTY(onAdDidFail, RCTBubblingEventBlock);
-RCT_CUSTOM_VIEW_PROPERTY(PID, NSInteger, TFAInReadAdView) {
+RCT_CUSTOM_VIEW_PROPERTY(pid, NSInteger, TFAInReadAdView) {
     [view setPid:[RCTConvert NSInteger:json]];
     [view loadWithTeadsAdSettings:nil];
 }
