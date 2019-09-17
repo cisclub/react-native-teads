@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cp -a react-native-teads/ios/TeadsSDK.framework ../../ios",
+    "postinstall": "cp -a ios/TeadsSDK.framework ../../ios",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
