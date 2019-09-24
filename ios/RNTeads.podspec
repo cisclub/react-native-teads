@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
   s.summary      = "RNTeads"
   s.description  = <<-DESC
                   RNTeads
-                   DESC
-  s.homepage     = ""
+                   React Native Teads
+  s.homepage     = "https://www.npmjs.com/package/react-native-teads"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
