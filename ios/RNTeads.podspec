@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "RNTeads"
   s.description  = <<-DESC
-                  RNTeads
-                   React Native Teads
+                      React Native Teads
+                      DESC
   s.homepage     = "https://www.npmjs.com/package/react-native-teads"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
