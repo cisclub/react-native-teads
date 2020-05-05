@@ -1,7 +1,7 @@
 {
   "name": "react-native-teads",
   "title": "React Native Teads",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "React Native Teads",
   "main": "index.js",
   "scripts": {
