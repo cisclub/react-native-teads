@@ -1,4 +1,5 @@
 #import "Teads.h"
+#import <TeadsSDK/TeadsSDK.h>
 
 @interface RNTTeadsInReadAdViewManager() <TFAAdDelegate>
 
