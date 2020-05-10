@@ -12,29 +12,29 @@ type Props = {
   onAdDisplayed: Function,
   onAdClose: Function,
   onAdError: Function,
-  enableDebug?: boolean
+  enableDebug?: boolean,
 };
 
 type State = {
-  height: number
+  height: number,
 };
 export class AdView extends Component<Props, State> {
   static defaultProps = {
     load: true,
-    enableDebug: __DEV__
+    enableDebug: __DEV__,
   };
 
   constructor(props) {
     super(props);
 
     this.state = {
-      height: 2
+      height: 2,
     };
   }
 
-  onDidReceiveAd = info => {
+  onDidReceiveAd = (info) => {
     this.setState({
-      height: width / info.nativeEvent.adRatio
+      height: width / info.nativeEvent.adRatio,
     });
     if (this.props.onDidReceiveAd) {
       this.props.onDidReceiveAd(info);
@@ -50,9 +50,9 @@ export class AdView extends Component<Props, State> {
         style={[
           {
             width,
-            height: this.state.height
+            height: this.state.height,
           },
-          style
+          style,
         ]}
         {...rest}
       />

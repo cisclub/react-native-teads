@@ -13,11 +13,13 @@
     "baseUrl": "https://github.com/cisclub/react-native-teads"
   },
   "keywords": [
+    "android",
+    "ios",
     "react-native",
     "teads"
   ],
   "author": {
-    "name": "cisclub, shukerullah",
+    "name": "cisclub",
     "email": "yourname@email.com"
   },
   "license": "MIT",
